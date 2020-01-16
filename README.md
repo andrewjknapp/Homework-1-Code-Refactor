@@ -44,17 +44,17 @@ This was chosen as it was short and described what the website was focused on di
 
 
 ## Other changes/bug fixes
-Link at top of page to "Search Engine Optimization" did not lead anywhere. The link pointed toward an element with an id of "search-engine-optimization". I added this id to the div containing the class "search-engine-optimization". this resolved the issue.
+* Link at top of page to "Search Engine Optimization" did not lead anywhere. The link pointed toward an element with an id of "search-engine-optimization". I added this id to the div containing the class "search-engine-optimization". this resolved the issue.
 
-In the div of class benefit-cost there was an unnecessary closing img tag which I removed.
+* In the div of class benefit-cost there was an unnecessary closing img tag which I removed.
 
-Added whitespace between some of the large blocks of code for better readability.
+* Added whitespace between some of the large blocks of code for better readability.
 
-Reduced css selector "header h1 .seo" to ".seo" as a class selector is specific enough on its own.
+* Reduced css selector "header h1 .seo" to ".seo" as a class selector is specific enough on its own.
 
-Changed css selector "nav ul" to ".nav-list" and added the class where necessary to reduce dependency
+* Changed css selector "nav ul" to ".nav-list" and added the class where necessary to reduce dependency
 
-Condensed benefit-lead, benefit-brand, and benefit-cost into the class aside-section
+* Condensed benefit-lead, benefit-brand, and benefit-cost into the class aside-section
 
-Condensed search-engine-optimization, online-reputation-management, and social-media-marketing into the class main-section
+* Condensed search-engine-optimization, online-reputation-management, and social-media-marketing into the class main-section
 
