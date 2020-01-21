@@ -1,5 +1,6 @@
 # Homework-1-Code-Refactor
 For this assignment I was tasked with altering this HTML file so that it follows the given accesability guidelines. 
+The original site is found within the Original-site folder to view what changes have been made.
 
 ## Semantic HTML elements
 Changed div of class header to a header element along with all header class selectors in style.css
